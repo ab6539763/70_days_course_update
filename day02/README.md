@@ -28,4 +28,11 @@ flowchart LR
     D2 --> D28[Day28 文档清洗]
 ```
 
-**状态**：Day 2 课件与 Day 1 同结构，正文持续扩充中（目标 ≥30000 字）。
+## 验收清单
+
+- [ ] `operators_demo.py` / `string_methods_demo.py` 运行通过  
+- [ ] `text_cleaner.py` 通过 PRD AC-01～AC-04  
+- [ ] 能口述 f-string 与 Prompt 模板的关系  
+- [ ] 作业已提交 Git  
+
+**状态**：✅ Day 2 完整课件已发布
