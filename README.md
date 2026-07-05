@@ -60,7 +60,14 @@
 | Day 5 | ✅ | Mock API JSON 解析导出 |
 | Day 6 | ✅ | Day1–5 函数化包重构 |
 | Day 7 | ✅ | 通讯录 + 第一周周测 |
-| Day 8–70 | 🚧 | 持续更新 |
+| Day 8 | ✅ | OOP 上 · `ChatMessage` |
+| Day 9 | ✅ | OOP 下 · `BaseModel` 多模型继承 |
+| Day 10 | ✅ | 模块/异常/venv · `sparktech` 包 |
+| Day 11 | ✅ | 文件 IO/正则 · 文档关键词统计 |
+| Day 12 | ✅ | HTTP/requests · **首次 LLM API** |
+| Day 13 | ✅ | 装饰器/异步 · 弹性 API 客户端 |
+| Day 14 | ✅ | **项目一** · 命令行多轮对话助手 |
+| Day 15–70 | 🚧 | 持续更新 |
 
 ---
 

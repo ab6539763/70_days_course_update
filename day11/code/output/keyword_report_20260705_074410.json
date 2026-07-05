@@ -1,0 +1,75 @@
+{
+  "scanned_at": "2026-07-05T07:44:10",
+  "docs_dir": "/workspace/day11/code/data/sample_docs",
+  "total_files": 4,
+  "keywords": [
+    "退款",
+    "大模型",
+    "工单",
+    "星火智服",
+    "客服",
+    "RAG"
+  ],
+  "summary": {
+    "退款": 19,
+    "大模型": 23,
+    "工单": 16,
+    "星火智服": 12,
+    "客服": 15,
+    "RAG": 3
+  },
+  "documents": [
+    {
+      "path": "faq_refund.txt",
+      "char_count": 361,
+      "hits": {
+        "退款": 13,
+        "大模型": 5,
+        "工单": 4,
+        "星火智服": 4,
+        "客服": 4,
+        "RAG": 0
+      },
+      "error": null
+    },
+    {
+      "path": "llm_intro.md",
+      "char_count": 488,
+      "hits": {
+        "退款": 1,
+        "大模型": 7,
+        "工单": 3,
+        "星火智服": 3,
+        "客服": 3,
+        "RAG": 2
+      },
+      "error": null
+    },
+    {
+      "path": "product_guide.md",
+      "char_count": 363,
+      "hits": {
+        "退款": 0,
+        "大模型": 6,
+        "工单": 4,
+        "星火智服": 2,
+        "客服": 3,
+        "RAG": 1
+      },
+      "error": null
+    },
+    {
+      "path": "service_policy.txt",
+      "char_count": 346,
+      "hits": {
+        "退款": 5,
+        "大模型": 5,
+        "工单": 5,
+        "星火智服": 3,
+        "客服": 5,
+        "RAG": 0
+      },
+      "error": null
+    }
+  ]
+}
