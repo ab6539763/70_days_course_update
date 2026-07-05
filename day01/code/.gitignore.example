@@ -1,0 +1,28 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境（Day 10 正式使用 venv）
+.venv/
+venv/
+env/
+
+# 环境变量与密钥 —— 永远不要提交（Day 12 起含 API Key）
+.env
+.env.*
+
+# IDE（个人配置可不提交；团队统一格式化规则时可移除该项）
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 作业截图体积过大时可忽略；毕业设计前建议保留关键节点
+# day01/screenshots/
+
+# 日志与临时文件
+*.log
+*.tmp
