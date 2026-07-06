@@ -1,0 +1,18 @@
+星火智服 RAG 电子书 · 第一章
+
+第一节 文档加载
+企业知识库往往包含 PDF 手册、Word 制度、Markdown 技术文档与 CSV 报表。
+LangChain Document Loader 将各类格式统一为 Document 对象，携带 page_content 与 metadata。
+
+第二节 文本切块
+长文档无法整段送入大模型上下文。Text Splitter 按 chunk_size 与 chunk_overlap 切分，
+RecursiveCharacterTextSplitter 会优先在段落、句号处断开，保持语义完整。
+
+第三节 退款与工单
+客户可在工单系统提交退款申请，客服三个工作日内审核。
+大模型 Token 额度消耗后不支持单独退款，详见退款 FAQ。
+
+第四节 chunk_size 调参
+chunk_size 过小：上下文碎片化，检索噪声多。
+chunk_size 过大：单块超出 embedding 有效窗口，召回精度下降。
+推荐起点：中文 300~500 字符，overlap 10%~20%。

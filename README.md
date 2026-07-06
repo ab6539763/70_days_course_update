@@ -77,7 +77,19 @@
 | Day 22 | ✅ | 前端速成 · 静态聊天页 |
 | Day 23 | ✅ | FastAPI · Chat REST API |
 | Day 24 | ✅ | **网页版 ChatGPT 克隆**（SSE+SQLite） |
-| Day 25–70 | 🚧 | 持续更新 |
+| Day 25 | ✅ | LangChain 入门 · ChatModel |
+| Day 26 | ✅ | LCEL 管道与 OutputParser |
+| Day 27 | ✅ | Memory 多会话记忆 |
+| Day 28 | ✅ | 文档加载与文本分割 |
+| Day 29 | ✅ | Chroma 向量库 |
+| Day 30 | ✅ | 完整 RAG 命令行系统 |
+| Day 31 | ✅ | RAG 调参实验 + 第四周周测 |
+| Day 32 | ✅ | 查询改写 / HyDE |
+| Day 33 | ✅ | 混合检索 + Rerank |
+| Day 34 | ✅ | Ragas RAG 评估 |
+| Day 35 | ✅ | LlamaIndex 框架对比 |
+| Day 36–38 | ✅ | **项目二** · 企业级知识库问答 |
+| Day 39–70 | 🚧 | 持续更新 |
 
 ---
 

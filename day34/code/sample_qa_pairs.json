@@ -1,0 +1,162 @@
+[
+  {
+    "id": "eval_001",
+    "category": "退款",
+    "question": "如何申请退款？",
+    "ground_truth_answer": "在订单详情页点击「申请退款」，填写原因后提交，1-3 个工作日审核。",
+    "ground_truth_contexts": [
+      "退款流程：用户进入订单详情页，点击「申请退款」按钮，填写退款原因并提交申请。客服在 1-3 个工作日内完成审核。"
+    ],
+    "tags": [
+      "faq",
+      "refund"
+    ]
+  },
+  {
+    "id": "eval_002",
+    "category": "退款",
+    "question": "退款多久能到账？",
+    "ground_truth_answer": "审核通过后 3-7 个工作日原路退回支付账户。",
+    "ground_truth_contexts": [
+      "退款到账时间：审核通过后，款项将在 3-7 个工作日内原路退回至用户支付账户。"
+    ],
+    "tags": [
+      "faq",
+      "refund"
+    ]
+  },
+  {
+    "id": "eval_003",
+    "category": "账号",
+    "question": "忘记密码怎么办？",
+    "ground_truth_answer": "登录页选择「忘记密码」，通过绑定手机号或邮箱重置。",
+    "ground_truth_contexts": [
+      "密码找回：在登录页点击「忘记密码」，通过已绑定的手机号或邮箱验证身份后重置密码。"
+    ],
+    "tags": [
+      "faq",
+      "account"
+    ]
+  },
+  {
+    "id": "eval_004",
+    "category": "物流",
+    "question": "现货订单什么时候发货？",
+    "ground_truth_answer": "现货订单付款后 24 小时内发货。",
+    "ground_truth_contexts": [
+      "发货时效：现货商品在付款成功后 24 小时内安排发货；预售商品以商品页说明的预计发货时间为准。"
+    ],
+    "tags": [
+      "faq",
+      "shipping"
+    ]
+  },
+  {
+    "id": "eval_005",
+    "category": "发票",
+    "question": "如何开具电子发票？",
+    "ground_truth_answer": "订单完成后在「我的订单 → 申请发票」填写抬头信息，电子发票将发送至邮箱。",
+    "ground_truth_contexts": [
+      "电子发票：订单完成后，用户可在「我的订单」中选择「申请发票」，填写发票抬头与税号，系统将电子发票发送至绑定邮箱。"
+    ],
+    "tags": [
+      "faq",
+      "invoice"
+    ]
+  },
+  {
+    "id": "eval_006",
+    "category": "产品",
+    "question": "星火智服支持哪些大模型？",
+    "ground_truth_answer": "支持 OpenAI、DeepSeek、通义千问等兼容 API 的模型，可在管理后台切换。",
+    "ground_truth_contexts": [
+      "模型支持：星火智服企业版支持 OpenAI、DeepSeek、通义千问等 OpenAI 兼容 API 的大模型，管理员可在后台配置默认模型与备用模型。"
+    ],
+    "tags": [
+      "product",
+      "llm"
+    ]
+  },
+  {
+    "id": "eval_007",
+    "category": "安全",
+    "question": "知识库文档会上传到公网吗？",
+    "ground_truth_answer": "不会。企业知识库文档存储在客户私有部署环境或 VPC 内，不上传公网。",
+    "ground_truth_contexts": [
+      "数据安全：企业知识库文档默认存储在客户私有部署实例或云 VPC 隔离环境内，未经客户授权不会上传至公网或用于模型训练。"
+    ],
+    "tags": [
+      "security",
+      "compliance"
+    ]
+  },
+  {
+    "id": "eval_008",
+    "category": "工单",
+    "question": "如何联系人工客服？",
+    "ground_truth_answer": "在对话窗口输入「转人工」或点击右下角「联系客服」按钮，系统将分配在线客服。",
+    "ground_truth_contexts": [
+      "人工客服：用户可在对话中输入「转人工」，或点击界面右下角「联系客服」，系统按排队顺序分配在线客服处理。"
+    ],
+    "tags": [
+      "faq",
+      "support"
+    ]
+  },
+  {
+    "id": "kb_101",
+    "category": "account",
+    "question": "概述是什么？",
+    "ground_truth_answer": "# 星火智服 · 账号与安全",
+    "ground_truth_contexts": [
+      "概述：# 星火智服 · 账号与安全"
+    ],
+    "tags": [
+      "auto",
+      "account",
+      "kb_account.md"
+    ]
+  },
+  {
+    "id": "kb_103",
+    "category": "account",
+    "question": "怎么修改登录密码？",
+    "ground_truth_answer": "进入「个人中心 → 账号安全 → 修改密码」，验证当前身份后设置新密码。",
+    "ground_truth_contexts": [
+      "修改密码：进入「个人中心 → 账号安全 → 修改密码」，验证当前身份后设置新密码。"
+    ],
+    "tags": [
+      "auto",
+      "account",
+      "kb_account.md"
+    ]
+  },
+  {
+    "id": "kb_104",
+    "category": "account",
+    "question": "双因素认证是什么？",
+    "ground_truth_answer": "企业版支持短信验证码与 TOTP 应用双因素认证，管理员可在后台强制开启。",
+    "ground_truth_contexts": [
+      "双因素认证：企业版支持短信验证码与 TOTP 应用双因素认证，管理员可在后台强制开启。"
+    ],
+    "tags": [
+      "auto",
+      "account",
+      "kb_account.md"
+    ]
+  },
+  {
+    "id": "kb_112",
+    "category": "refund",
+    "question": "不可退款情形是什么？",
+    "ground_truth_answer": "- 已激活的数字商品（除法定情形外）",
+    "ground_truth_contexts": [
+      "不可退款情形：- 已激活的数字商品（除法定情形外）\n- 定制类商品进入生产阶段后\n- 优惠券抵扣部分不退现金，退回优惠券账户"
+    ],
+    "tags": [
+      "auto",
+      "refund",
+      "kb_refund.md"
+    ]
+  }
+]
