@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-06T01:00:05",
+  "prompt_id": "customer_demo",
+  "prompt_title": "客户演示标准三问",
+  "prompt_text": "星火智服能帮我解决哪些问题？请举例说明。",
+  "client_source": "day13/resilient_llm_client.py",
+  "runs": [
+    {
+      "preset_name": "stable",
+      "preset_label": "稳定短答",
+      "params": {
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "max_tokens": 256,
+        "frequency_penalty": 0.0
+      },
+      "response_text": "您好！您好！关于「星火智服能帮我解决哪些问题？请举例说明。」——这是 mock 回复，语气=简洁专业，temp=0.0，freq_pen=0.0。（已加载人设） id=c68863",
+      "completion_tokens": 22,
+      "latency_ms": 0.04,
+      "mode": "mock",
+      "stream": false
+    },
+    {
+      "preset_name": "demo_balanced",
+      "preset_label": "客户演示推荐",
+      "params": {
+        "temperature": 0.3,
+        "top_p": 0.9,
+        "max_tokens": 512,
+        "frequency_penalty": 0.3
+      },
+      "response_text": "您好，关于「星火智服能帮我解决哪些问题？请举例说明。」——这是 mock 回复，语气=简洁专业，temp=0.3，freq_pen=0.3。（已加载人设） id=ca3b67",
+      "completion_tokens": 21,
+      "latency_ms": 0.01,
+      "mode": "mock",
+      "stream": false
+    },
+    {
+      "preset_name": "creative",
+      "preset_label": "高多样性（慎用）",
+      "params": {
+        "temperature": 1.0,
+        "top_p": 0.95,
+        "max_tokens": 800,
+        "frequency_penalty": 0.0
+      },
+      "response_text": "您好！您好！关于「星火智服能帮我解决哪些问题？请举例说明。」——这是 mock 回复，语气=活泼发散，temp=1.0，freq_pen=0.0。（已加载人设） id=044763",
+      "completion_tokens": 22,
+      "latency_ms": 0.01,
+      "mode": "mock",
+      "stream": false
+    },
+    {
+      "preset_name": "anti_repetition",
+      "preset_label": "强去重套话",
+      "params": {
+        "temperature": 0.5,
+        "top_p": 0.9,
+        "max_tokens": 400,
+        "frequency_penalty": 0.8
+      },
+      "response_text": "您好，关于「星火智服能帮我解决哪些问题？请举例说明。」——这是 mock 回复，语气=平衡，temp=0.5，freq_pen=0.8。（已加载人设） id=1ed962",
+      "completion_tokens": 21,
+      "latency_ms": 0.01,
+      "mode": "mock",
+      "stream": false
+    }
+  ],
+  "recommended_preset": "demo_balanced",
+  "demo_defaults": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 512,
+    "frequency_penalty": 0.3,
+    "stream": true,
+    "rationale": "偏低温度保证政策类回答稳定；frequency_penalty 减少寒暄重复；流式降低首字等待焦虑"
+  }
+}

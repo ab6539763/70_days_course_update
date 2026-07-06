@@ -1,0 +1,59 @@
+{
+  "experiment": "temperature",
+  "generated_at": "2026-07-06T00:59:50",
+  "client_source": "day13/resilient_llm_client.py",
+  "mode": "mock",
+  "base_params": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 512,
+    "frequency_penalty": 0.3
+  },
+  "runs": [
+    {
+      "param": "temperature",
+      "value": 0.0,
+      "response_preview": "您好，关于「请介绍一下星火智服能帮我做什么，并说明退款政策要点。」——这是 mock 回复，语气=简洁专业，temp=0.0，freq_pen=0.3。（已加载人设） id=c30e26",
+      "response_length": 93,
+      "completion_tokens": 23,
+      "latency_ms": 0.03,
+      "mode": "mock"
+    },
+    {
+      "param": "temperature",
+      "value": 0.3,
+      "response_preview": "您好，关于「请介绍一下星火智服能帮我做什么，并说明退款政策要点。」——这是 mock 回复，语气=简洁专业，temp=0.3，freq_pen=0.3。（已加载人设） id=5dafc3",
+      "response_length": 93,
+      "completion_tokens": 23,
+      "latency_ms": 0.01,
+      "mode": "mock"
+    },
+    {
+      "param": "temperature",
+      "value": 0.7,
+      "response_preview": "您好，关于「请介绍一下星火智服能帮我做什么，并说明退款政策要点。」——这是 mock 回复，语气=平衡，temp=0.7，freq_pen=0.3。（已加载人设） id=2e2f7e",
+      "response_length": 91,
+      "completion_tokens": 22,
+      "latency_ms": 0.01,
+      "mode": "mock"
+    },
+    {
+      "param": "temperature",
+      "value": 1.0,
+      "response_preview": "您好，关于「请介绍一下星火智服能帮我做什么，并说明退款政策要点。」——这是 mock 回复，语气=活泼发散，temp=1.0，freq_pen=0.3。（已加载人设） id=88ce57",
+      "response_length": 93,
+      "completion_tokens": 23,
+      "latency_ms": 0.0,
+      "mode": "mock"
+    },
+    {
+      "param": "temperature",
+      "value": 1.5,
+      "response_preview": "您好，关于「请介绍一下星火智服能帮我做什么，并说明退款政策要点。」——这是 mock 回复，语气=活泼发散，temp=1.5，freq_pen=0.3。（已加载人设） id=cbf30b",
+      "response_length": 93,
+      "completion_tokens": 23,
+      "latency_ms": 0.0,
+      "mode": "mock"
+    }
+  ]
+}

@@ -67,7 +67,17 @@
 | Day 12 | ✅ | HTTP/requests · **首次 LLM API** |
 | Day 13 | ✅ | 装饰器/异步 · 弹性 API 客户端 |
 | Day 14 | ✅ | **项目一** · 命令行多轮对话助手 |
-| Day 15–70 | 🚧 | 持续更新 |
+| Day 15 | ✅ | 大模型原理 · tiktoken 成本估算 |
+| Day 16 | ✅ | API 参数实验 · 流式输出 |
+| Day 17 | ✅ | Prompt 工程基础 · 10 场景模板库 |
+| Day 18 | ✅ | CoT/注入防御 · 意图分类器 JSON |
+| Day 19 | ✅ | Function Calling 手写 Agent |
+| Day 20 | ✅ | Embedding · 相似问题匹配 |
+| Day 21 | ✅ | 第三周复盘 · 综合助手 |
+| Day 22 | ✅ | 前端速成 · 静态聊天页 |
+| Day 23 | ✅ | FastAPI · Chat REST API |
+| Day 24 | ✅ | **网页版 ChatGPT 克隆**（SSE+SQLite） |
+| Day 25–70 | 🚧 | 持续更新 |
 
 ---
 

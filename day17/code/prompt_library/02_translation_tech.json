@@ -1,0 +1,8 @@
+{
+  "instruction": "将以下英文技术说明翻译为简体中文。",
+  "input_text": "Enable retry with exponential backoff when upstream returns HTTP 503.",
+  "context": "读者是初级后端工程师。",
+  "output_format": "只输出中文译文。",
+  "role": "你是技术文档翻译。",
+  "metadata": {"task": "translation", "id": "P02"}
+}

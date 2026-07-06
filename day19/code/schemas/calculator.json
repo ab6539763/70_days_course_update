@@ -1,0 +1,17 @@
+{
+  "type": "function",
+  "function": {
+    "name": "calculate",
+    "description": "执行数学表达式计算，支持加减乘除、幂运算和括号。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "expression": {
+          "type": "string",
+          "description": "数学表达式，例如：'(12 + 8) * 3' 或 '2 ** 10'"
+        }
+      },
+      "required": ["expression"]
+    }
+  }
+}

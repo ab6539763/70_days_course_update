@@ -1,0 +1,3 @@
+# Day 21 综合助手依赖（与 Day 14 对齐）
+openai>=1.30.0,<2
+python-dotenv>=1.0.0,<2

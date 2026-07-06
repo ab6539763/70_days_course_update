@@ -1,0 +1,26 @@
+{
+  "type": "function",
+  "function": {
+    "name": "query_products",
+    "description": "从星火智服产品库中按关键词或分类查询产品信息。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "keyword": {
+          "type": "string",
+          "description": "搜索关键词，匹配产品名称或描述"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["hardware", "software", "service", "all"],
+          "description": "产品分类，默认 all"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "返回条数上限，默认 5，最大 10"
+        }
+      },
+      "required": ["keyword"]
+    }
+  }
+}

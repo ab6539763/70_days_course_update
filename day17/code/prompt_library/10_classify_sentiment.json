@@ -1,0 +1,13 @@
+{
+  "instruction": "对用户反馈做情感分类，并给出是否需要人工介入的建议。",
+  "input_text": "功能还行，就是价格偏贵，希望能有学生优惠。",
+  "output_format": "JSON：{\"sentiment\": \"正面|中性|负面\", \"need_human\": true|false, \"reason\": \"...\"}",
+  "role": "你是客户体验分析助手。",
+  "examples": [
+    {
+      "input": "太棒了，秒解决问题！",
+      "output": "{\"sentiment\": \"正面\", \"need_human\": false, \"reason\": \"纯表扬\"}"
+    }
+  ],
+  "metadata": {"task": "classification", "id": "P10"}
+}
