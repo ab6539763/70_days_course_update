@@ -1,1 +1,4 @@
 __pycache__/
+*.pyc
+.env
+day58/code/graduation_project/workspace/
