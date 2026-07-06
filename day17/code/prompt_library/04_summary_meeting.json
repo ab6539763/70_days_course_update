@@ -1,0 +1,7 @@
+{
+  "instruction": "将长文会议记录压缩为 3 条 bullet 要点。",
+  "input_text": "周会讨论：1) Q3 目标上调 15%；2) 客服机器人要支持多轮意图；3) 安全组要求所有 Prompt 入参做分隔符隔离；4) 下周五前完成 Day 17 培训材料。",
+  "output_format": "输出格式：\n- 要点1\n- 要点2\n- 要点3",
+  "role": "你是会议纪要助手。",
+  "metadata": {"task": "summary", "id": "P04"}
+}

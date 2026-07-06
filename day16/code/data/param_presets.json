@@ -1,0 +1,41 @@
+{
+  "presets": {
+    "stable": {
+      "label": "稳定短答",
+      "temperature": 0.0,
+      "top_p": 1.0,
+      "max_tokens": 256,
+      "frequency_penalty": 0.0
+    },
+    "demo_balanced": {
+      "label": "客户演示推荐",
+      "temperature": 0.3,
+      "top_p": 0.9,
+      "max_tokens": 512,
+      "frequency_penalty": 0.3,
+      "recommended": true
+    },
+    "creative": {
+      "label": "高多样性（慎用）",
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "max_tokens": 800,
+      "frequency_penalty": 0.0
+    },
+    "anti_repetition": {
+      "label": "强去重套话",
+      "temperature": 0.5,
+      "top_p": 0.9,
+      "max_tokens": 400,
+      "frequency_penalty": 0.8
+    }
+  },
+  "demo_defaults": {
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 512,
+    "frequency_penalty": 0.3,
+    "stream": true,
+    "rationale": "偏低温度保证政策类回答稳定；frequency_penalty 减少寒暄重复；流式降低首字等待焦虑"
+  }
+}

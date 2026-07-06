@@ -1,0 +1,3 @@
+# Day 10 最小依赖（为后续 API / 配置加载预留）
+requests>=2.31.0,<3
+python-dotenv>=1.0.0,<2

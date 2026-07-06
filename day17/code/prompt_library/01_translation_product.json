@@ -1,0 +1,8 @@
+{
+  "instruction": "将中文产品名称翻译为英文，保持品牌名 SparkTech 不翻译。",
+  "input_text": "星火智服智能客服平台",
+  "context": "产品对外英文名规范：星火智服 → SparkTech Intelligent Service",
+  "output_format": "只输出英文译文，一行，不要解释。",
+  "role": "你是专业中英翻译，熟悉企业 SaaS 术语。",
+  "metadata": {"task": "translation", "id": "P01"}
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "P001",
+    "name": "星火工单助手 Pro",
+    "category": "software",
+    "price": 2999,
+    "description": "智能工单分类、摘要与路由，支持 Function Calling 集成"
+  },
+  {
+    "id": "P002",
+    "name": "边缘推理网关 X1",
+    "category": "hardware",
+    "price": 12800,
+    "description": "本地部署小模型，低延迟工具调用与 RAG 检索"
+  },
+  {
+    "id": "P003",
+    "name": "多模态质检相机",
+    "category": "hardware",
+    "price": 5600,
+    "description": "工业视觉检测，支持图像理解与缺陷标注"
+  },
+  {
+    "id": "P004",
+    "name": "Embedding 向量检索套件",
+    "category": "software",
+    "price": 4500,
+    "description": "语义相似问匹配、FAQ 去重与知识库检索"
+  },
+  {
+    "id": "P005",
+    "name": "LLM 运维驻场服务",
+    "category": "service",
+    "price": 15000,
+    "description": "模型调优、工具链搭建与上线护航"
+  },
+  {
+    "id": "P006",
+    "name": "天气数据 API 包",
+    "category": "service",
+    "price": 800,
+    "description": "为 Agent 提供实时天气工具数据源"
+  }
+]

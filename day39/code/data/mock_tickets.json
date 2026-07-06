@@ -1,0 +1,29 @@
+[
+  {
+    "id": "TK-20260701-001",
+    "customer": "华东制造有限公司",
+    "tier": "enterprise",
+    "subject": "API 接口 500 错误",
+    "body": "生产环境调用 /v2/orders 持续返回 500，影响出库",
+    "status": "open",
+    "created_at": "2026-07-01T09:15:00"
+  },
+  {
+    "id": "TK-20260702-002",
+    "customer": "星辰零售",
+    "tier": "vip",
+    "subject": "申请退款",
+    "body": "订单 ORD-8891 已付款，商品未发货，要求全额退款",
+    "status": "open",
+    "created_at": "2026-07-02T14:30:00"
+  },
+  {
+    "id": "TK-20260703-003",
+    "customer": "个人用户王先生",
+    "tier": "standard",
+    "subject": "账号无法登录",
+    "body": "重置密码后仍提示账号被锁定，请协助解锁",
+    "status": "open",
+    "created_at": "2026-07-03T11:00:00"
+  }
+]

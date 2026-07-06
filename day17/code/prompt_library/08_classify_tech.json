@@ -1,0 +1,8 @@
+{
+  "instruction": "判断用户消息属于哪一类技术支持问题。",
+  "input_text": "API 调用返回 401，Key 明明刚刷新过。",
+  "context": "类别：鉴权错误、限流、网络超时、参数错误、其他",
+  "output_format": "只输出 JSON：{\"intent\": \"...\", \"confidence\": 0.95}",
+  "role": "你是技术支持工单分类助手。",
+  "metadata": {"task": "classification", "id": "P08"}
+}

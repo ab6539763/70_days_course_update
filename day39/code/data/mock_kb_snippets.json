@@ -1,0 +1,26 @@
+[
+  {
+    "doc_id": "refund_policy.md",
+    "title": "退款政策",
+    "content": "未发货订单支持 7 日内无理由全额退款；已发货需先退货再退款，VIP 客户 SLA 24 小时。",
+    "score": 0.92
+  },
+  {
+    "doc_id": "sla.md",
+    "title": "SLA 分级",
+    "content": "P0 故障 4 小时响应；P1 8 小时；账单类 24 小时；一般咨询 48 小时。",
+    "score": 0.88
+  },
+  {
+    "doc_id": "api_key_guide.md",
+    "title": "API 密钥与限流",
+    "content": "生产环境 500 错误请先检查 API Key 是否过期、QPS 是否超限，并查看 status.sparktech.io。",
+    "score": 0.85
+  },
+  {
+    "doc_id": "account_unlock.md",
+    "title": "账号解锁流程",
+    "content": "连续 5 次密码错误将锁定 30 分钟；客服可验证身份后手动解锁。",
+    "score": 0.81
+  }
+]

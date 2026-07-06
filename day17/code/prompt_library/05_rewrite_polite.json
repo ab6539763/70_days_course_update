@@ -1,0 +1,7 @@
+{
+  "instruction": "将客服回复改写为更礼貌、专业的企业口吻，保留原意。",
+  "input_text": "你这问题我们文档里都有，自己去看 FAQ。",
+  "output_format": "只输出改写后的回复，一行。",
+  "role": "你是星火科技客服话术教练。",
+  "metadata": {"task": "rewrite", "id": "P05"}
+}

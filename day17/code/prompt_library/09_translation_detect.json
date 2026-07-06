@@ -1,0 +1,7 @@
+{
+  "instruction": "识别用户消息语言并翻译为中文（若已是中文则复述）。",
+  "input_text": "How do I export chat history to JSON?",
+  "output_format": "JSON：{\"language\": \"en|zh|...\", \"chinese\": \"...\"}",
+  "role": "你是多语言客服助手。",
+  "metadata": {"task": "translation", "id": "P09"}
+}
