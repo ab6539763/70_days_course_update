@@ -62,6 +62,7 @@ python3 verify_project2.py       # 全链路验收
 | [06_课后作业.md](./06_课后作业.md) | 联调作业 |
 | [07_作业参考答案.md](./07_作业参考答案.md) | 参考答案 |
 | [08_补充讲义_引用展示与SSE.md](./08_补充讲义_引用展示与SSE.md) | citations UI 速查 |
+| [09_附录_全栈联调手把手.md](./09_附录_全栈联调手把手.md) | **扩展主课** |
 | [run.sh](./run.sh) | 一键启动 |
 | [verify_project2.py](./verify_project2.py) | 验收 |
 
