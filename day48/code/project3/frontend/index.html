@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>星火智服 · 多 Agent 办公助手</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>多 Agent 智能办公助手</h1>
+    <p class="subtitle">LangGraph 编排 · 人工审批 · Mock 演示</p>
+    <span id="modeBadge" class="badge">mock</span>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <h2>提交办公任务</h2>
+      <textarea id="requestInput" rows="5" placeholder="例：请检索退款政策，起草通知邮件，并预约周三 10 点产品会议"></textarea>
+      <button id="submitBtn">启动 Agent 工作流</button>
+      <p id="statusLine" class="muted">等待输入…</p>
+    </section>
+
+    <section class="panel">
+      <h2>执行轨迹</h2>
+      <div id="planBox" class="box"></div>
+      <div id="stepsBox" class="box steps"></div>
+    </section>
+
+    <section class="panel approval" id="approvalPanel" hidden>
+      <h2>人工审批</h2>
+      <p id="approvalReason"></p>
+      <pre id="approvalPreview"></pre>
+      <div class="actions">
+        <button id="approveBtn" class="primary">批准发送</button>
+        <button id="rejectBtn" class="danger">拒绝</button>
+      </div>
+      <input id="approvalComment" placeholder="审批备注（可选）" />
+    </section>
+
+    <section class="panel">
+      <h2>最终结果</h2>
+      <pre id="resultBox" class="box">{}</pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

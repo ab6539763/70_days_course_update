@@ -89,7 +89,17 @@
 | Day 34 | ✅ | Ragas RAG 评估 |
 | Day 35 | ✅ | LlamaIndex 框架对比 |
 | Day 36–38 | ✅ | **项目二** · 企业级知识库问答 |
-| Day 39–70 | 🚧 | 持续更新 |
+| Day 39 | ✅ | ReAct 手写 Agent |
+| Day 40 | ✅ | LangChain Agent + 工具 |
+| Day 41 | ✅ | LangGraph 入门 |
+| Day 42 | ✅ | Checkpointer / 人工审批 |
+| Day 43 | ✅ | Supervisor 多 Agent |
+| Day 44 | ✅ | MCP 协议与接入 |
+| Day 45 | ✅ | 第五周复盘 + Dify/Coze |
+| Day 46 | ✅ | Agent 稳定性与可观测性 |
+| Day 47 | ✅ | Text-to-SQL 数据分析 |
+| Day 48–50 | ✅ | **项目三** · 多 Agent 智能办公助手 |
+| Day 51–70 | 🚧 | 持续更新 |
 
 ---
 
