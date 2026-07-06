@@ -1,0 +1,16 @@
+{
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "max_tokens": 512,
+  "frequency_penalty": 0.3,
+  "stream": true,
+  "rationale": "偏低温度保证政策类回答稳定；frequency_penalty 减少寒暄重复；流式降低首字等待焦虑",
+  "recommended_preset": "demo_balanced",
+  "prompt_id": "customer_demo",
+  "generated_at": "2026-07-06T01:00:05",
+  "linked_clients": {
+    "day12": "/workspace/day12/code/llm_client.py",
+    "day13": "/workspace/day13/code/resilient_llm_client.py",
+    "day14": "/workspace/day14/project1/llm_client.py"
+  }
+}

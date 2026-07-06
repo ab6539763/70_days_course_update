@@ -1,0 +1,5 @@
+{
+  "name": "坏数据",
+  "phone": "13800138001",
+  "note": "尾逗号导致 JSONDecodeError —— 教学用",
+}

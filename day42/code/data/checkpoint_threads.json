@@ -1,0 +1,22 @@
+{
+  "thread_id": "verify-cp",
+  "invocations": [
+    {
+      "count": 1,
+      "last_action": "increment"
+    },
+    {
+      "count": 2,
+      "last_action": "increment"
+    },
+    {
+      "count": 3,
+      "last_action": "increment"
+    }
+  ],
+  "final_values": {
+    "count": 3,
+    "last_action": "increment"
+  },
+  "checkpoint_id": "1f1790af-7c96-6f0f-8007-990d2c852f1a"
+}

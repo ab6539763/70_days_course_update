@@ -1,0 +1,11 @@
+{
+  "sparktech_cs": {
+    "file_name": "../day52/code/data/train.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

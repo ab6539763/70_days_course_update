@@ -1,0 +1,23 @@
+{
+  "rounds": [
+    {
+      "round_id": 1,
+      "type": "tech",
+      "score": 78,
+      "notes": "RAG 召回讲清了，Agent 略弱"
+    },
+    {
+      "round_id": 2,
+      "type": "system",
+      "score": 72,
+      "notes": "未提 checkpointer 持久化"
+    },
+    {
+      "round_id": 3,
+      "type": "behavioral",
+      "score": 85,
+      "notes": "项目叙事流畅"
+    }
+  ],
+  "average": 78.3
+}

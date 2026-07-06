@@ -1,0 +1,6 @@
+python-dotenv>=1.0.0
+
+# 可选：安装后 llamaindex_kb.py 将使用官方 LlamaIndex
+# llama-index>=0.10.0
+# llama-index-embeddings-openai>=0.1.0
+# llama-index-llms-openai>=0.1.0

@@ -1,0 +1,3 @@
+# Day 12 · HTTP 与首次 LLM API 调用
+requests>=2.31.0,<3
+python-dotenv>=1.0.0,<2

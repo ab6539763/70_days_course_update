@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "unit": "per_1M_tokens",
+  "updated": "2026-08-11",
+  "note": "课堂 mock 单价，立项请以各厂商官网当日价格为准",
+  "models": {
+    "gpt-4o-mini": { "input": 0.15, "output": 0.6 },
+    "gpt-4o": { "input": 2.5, "output": 10.0 },
+    "deepseek-chat": { "input": 0.14, "output": 0.28 },
+    "claude-3-5-sonnet": { "input": 3.0, "output": 15.0 }
+  },
+  "fx_usd_to_cny": 7.25
+}

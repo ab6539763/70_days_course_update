@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="星火智服 · 智能客服 Web 演示（Day 24 全栈联调）"
+    />
+    <title>星火智服 · 智能客服</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="brand">
+          <span class="brand-icon" aria-hidden="true">星</span>
+          <div>
+            <h1 class="brand-title">星火智服</h1>
+            <p class="brand-subtitle">
+              SparkTech AI Assistant · Day 24 全栈 SSE 联调
+            </p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <span id="status-badge" class="status-badge" title="后端连接状态"
+            >连接中…</span
+          >
+          <button type="button" id="btn-clear" class="btn btn-ghost">
+            清空
+          </button>
+        </div>
+      </header>
+
+      <main
+        id="message-list"
+        class="chat-messages"
+        role="log"
+        aria-live="polite"
+        aria-relevant="additions"
+      ></main>
+
+      <footer class="chat-input-bar">
+        <label class="sr-only" for="user-input">输入消息</label>
+        <textarea
+          id="user-input"
+          class="chat-input"
+          rows="1"
+          placeholder="输入消息，Enter 发送…"
+          aria-label="输入消息"
+          maxlength="2000"
+        ></textarea>
+        <button type="button" id="btn-send" class="btn btn-primary">
+          发送
+        </button>
+      </footer>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

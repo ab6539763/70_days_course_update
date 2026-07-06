@@ -1,0 +1,10 @@
+{
+  "peft_type": "LORA",
+  "r": 8,
+  "lora_alpha": 16,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "base_model": "Qwen/Qwen2.5-7B-Instruct"
+}

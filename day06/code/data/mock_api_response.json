@@ -1,0 +1,54 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "employees": [
+      {
+        "name": " 陈晓 ",
+        "employee_id": "ST-2026-001",
+        "department": "大模型应用开发部",
+        "onboard_date": "2026-07-05",
+        "phone": "13800138000",
+        "need_dorm": true
+      },
+      {
+        "name": "李雷",
+        "employee_id": "st-2026-003",
+        "department": "智能应用事业部-交付组",
+        "onboard_date": "2026-07-06",
+        "phone": "13900139000",
+        "need_dorm": false
+      },
+      {
+        "name": "韩梅梅",
+        "employee_id": "ST-2026-004",
+        "department": "大模型应用开发部",
+        "onboard_date": "2026-07-07",
+        "phone": "138 0013 8001",
+        "need_dorm": true
+      },
+      {
+        "name": "王芳",
+        "employee_id": "ST-2026-005",
+        "department": null,
+        "onboard_date": "2026-07-08",
+        "phone": "13700137000",
+        "need_dorm": false
+      },
+      {
+        "name": " 张伟 ",
+        "employee_id": "st-2026-006",
+        "department": "信息技术部",
+        "onboard_date": "2026-07-09",
+        "phone": "136 0013 6006",
+        "need_dorm": true
+      }
+    ],
+    "pagination": {
+      "page": 1,
+      "page_size": 10,
+      "total": 5
+    }
+  },
+  "request_id": "mock-req-20260710-001"
+}

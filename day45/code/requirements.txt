@@ -1,0 +1,3 @@
+# Day 45 · Week 5 阶段测验 · Agent 综合复盘 + Dify/Coze 低代码边界
+langchain-core>=0.3.0,<0.4
+python-dotenv>=1.0.0,<2
