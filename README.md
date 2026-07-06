@@ -90,7 +90,14 @@
 | Day 35 | ✅ | LlamaIndex 框架对比 |
 | Day 36–38 | ✅ | **项目二** · 企业级知识库问答 |
 | Day 39–50 | ✅ | **项目三** · 多 Agent 智能办公助手（含 09/10 扩展附录） |
-| Day 51–70 | 🚧 | 持续更新 |
+| Day 51 | ✅ | 微调概论 · RAG/Prompt/SFT 选型 |
+| Day 52 | ✅ | 数据集工程 · 工单转 Alpaca |
+| Day 53 | ✅ | LoRA / QLoRA 原理 |
+| Day 54 | ✅ | LLaMA-Factory 配置化训练 |
+| Day 55 | ✅ | 微调离线评估与 A/B |
+| Day 56 | ✅ | vLLM OpenAI 兼容推理 |
+| Day 57 | ✅ | **阶段五收官** · Docker Compose 部署 |
+| Day 58–70 | 🚧 | 持续更新 |
 
 ---
 

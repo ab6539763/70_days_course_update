@@ -30,3 +30,25 @@ DeepSeek 的 Key 与 OpenAI 格式相同（`sk-` 开头），接入兼容客户�
 
 - `.env` 已在各日 `.gitignore` / 根目录 `.gitignore` 忽略  
 - 答辩演示优先使用 **mock 模式**，避免 Key 泄露  
+
+---
+
+## 阶段五（Day 51–57）微调与部署
+
+| 变量 | 用途 | 示例 |
+|------|------|------|
+| `SPARKTECH_MOCK=1` | 无 GPU 时模拟训练/推理/网关 | 教学默认 |
+| `CUDA_VISIBLE_DEVICES` | 指定训练 GPU | `0` |
+| `VLLM_BASE_URL` | vLLM / Mock 推理地址 | `http://127.0.0.1:8100` |
+| `HF_ENDPOINT` | HuggingFace 镜像（国内，选做） | `https://hf-mirror.com` |
+
+**端口约定**（避免与前三项目冲突）：
+
+| 服务 | 端口 |
+|------|------|
+| Project2 RAG | 8000 / 8080 |
+| Project3 Agent | 8010 / 8088 |
+| Mock vLLM | 8100 |
+| Deploy Gateway | 8020 |
+
+Day 57 Docker：`cd day57/code/deploy_stack && docker compose up --build`
