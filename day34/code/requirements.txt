@@ -1,0 +1,6 @@
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# 可选：安装后 ragas_eval.py 将尝试调用官方 Ragas
+# ragas>=0.1.9
+# datasets>=2.14.0

@@ -1,0 +1,30 @@
+services:
+  mock-vllm:
+    build:
+      context: ..
+      dockerfile: deploy_stack/Dockerfile.vllm
+    ports:
+      - "8100:8100"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8100/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  api-gateway:
+    build:
+      context: ..
+      dockerfile: deploy_stack/Dockerfile.api
+    ports:
+      - "8020:8020"
+    environment:
+      VLLM_BASE_URL: http://mock-vllm:8100
+      SPARKTECH_MOCK: "1"
+    depends_on:
+      mock-vllm:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8020/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3

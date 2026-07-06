@@ -1,0 +1,14 @@
+[
+  {
+    "ticket_id": "T001",
+    "user": "我要退款",
+    "agent": "好的帮您查",
+    "category": "refund"
+  },
+  {
+    "ticket_id": "T002",
+    "user": "太慢了",
+    "agent": "抱歉加急",
+    "category": "complaint"
+  }
+]

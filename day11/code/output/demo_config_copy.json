@@ -1,0 +1,18 @@
+{
+  "project": "星火智服",
+  "version": "1.0.0",
+  "features": {
+    "keyword_stats": true,
+    "rag_loader": false
+  },
+  "default_keywords": [
+    "退款",
+    "大模型",
+    "工单"
+  ],
+  "report": {
+    "format": "json",
+    "encoding": "utf-8"
+  },
+  "demo_note": "由 file_io_demo.py 写入"
+}

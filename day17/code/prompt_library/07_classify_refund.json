@@ -1,0 +1,8 @@
+{
+  "instruction": "判断用户消息的客服意图类别。",
+  "input_text": "我上周买的耳机想退货，发票还在。",
+  "context": "可选类别：产品咨询、订单物流、投诉退款、账户问题、感谢寒暄、其他",
+  "output_format": "只输出 JSON：{\"intent\": \"...\", \"confidence\": 0.0-1.0}",
+  "role": "你是客服意图分类器。",
+  "metadata": {"task": "classification", "id": "P07"}
+}

@@ -1,0 +1,5 @@
+flowchart TD
+    __start__([START]) --> reason[reason 推理节点]
+    reason -->|有 Action| act[act 工具节点]
+    reason -->|Final Answer / 超时| __end__([END])
+    act --> reason

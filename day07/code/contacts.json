@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-07-05T07:09:53.505002+00:00",
+  "next_id": 6,
+  "contacts": [
+    {
+      "id": 1,
+      "name": "陈晓",
+      "phone": "13800138001",
+      "email": "chen.xiao@sparktech.cn",
+      "department": "大模型应用开发部",
+      "notes": "Day1 入职卡片原型负责人",
+      "created_at": "2026-07-01T09:00:00+00:00",
+      "updated_at": "2026-07-01T09:00:00+00:00"
+    },
+    {
+      "id": 2,
+      "name": "李雷",
+      "phone": "13900139002",
+      "email": "li.lei@sparktech.cn",
+      "department": "信息技术部",
+      "notes": "Mock API 对接，王工直线",
+      "created_at": "2026-07-02T10:15:00+00:00",
+      "updated_at": "2026-07-02T10:15:00+00:00"
+    },
+    {
+      "id": 3,
+      "name": "韩梅梅",
+      "phone": "13700137003",
+      "email": "han.meimei@sparktech.cn",
+      "department": "人力资源部",
+      "notes": "通讯录需求发起人（刘姐助理）",
+      "created_at": "2026-07-03T14:20:00+00:00",
+      "updated_at": "2026-07-03T14:20:00+00:00"
+    },
+    {
+      "id": 4,
+      "name": "王芳",
+      "phone": "13600136004",
+      "email": "",
+      "department": "产品部",
+      "notes": "Sprint 规划会主持人",
+      "created_at": "2026-07-04T11:00:00+00:00",
+      "updated_at": "2026-07-04T11:00:00+00:00"
+    },
+    {
+      "id": 5,
+      "name": "张工",
+      "phone": "13500135005",
+      "email": "zhang.gong@sparktech.cn",
+      "department": "大模型应用开发部",
+      "notes": "培训生直属 Leader",
+      "created_at": "2026-07-05T08:00:00+00:00",
+      "updated_at": "2026-07-05T08:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "instruction": "将营销口号改写为技术白皮书风格的客观描述。",
+  "input_text": "我们的 AI 简直无敌，秒懂客户心思，吊打同行！",
+  "output_format": "80 字以内，不用夸张形容词。",
+  "role": "你是技术文档工程师。",
+  "metadata": {"task": "rewrite", "id": "P06"}
+}

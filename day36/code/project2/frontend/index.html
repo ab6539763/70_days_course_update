@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>星火智服 · 企业知识库问答</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <header class="sidebar-header">
+        <h1>星火智服 KB</h1>
+        <p class="subtitle">Project 2 · 企业知识库问答</p>
+      </header>
+
+      <section class="panel upload-panel">
+        <h2>文档上传</h2>
+        <p class="hint">支持 .txt · .md · .pdf</p>
+        <label class="upload-btn">
+          <input type="file" id="file-input" multiple accept=".txt,.md,.pdf" hidden />
+          选择文件
+        </label>
+        <button id="btn-upload" class="btn secondary" disabled>上传并建库</button>
+        <ul id="doc-list" class="doc-list"></ul>
+      </section>
+
+      <section class="panel session-panel">
+        <button id="btn-clear" class="btn ghost">清空对话</button>
+        <button id="btn-rebuild" class="btn ghost">重建索引</button>
+      </section>
+    </aside>
+
+    <main class="chat-main">
+      <header class="chat-header">
+        <div>
+          <h2>知识库问答</h2>
+          <p>Hybrid 检索 + 引用溯源 · SSE 流式</p>
+        </div>
+        <span id="status-badge" class="status-badge">连接中…</span>
+      </header>
+
+      <div id="message-list" class="message-list" aria-live="polite"></div>
+
+      <footer class="composer">
+        <textarea
+          id="user-input"
+          rows="1"
+          placeholder="例如：退款政策是什么？API Key 如何申请？"
+          maxlength="4000"
+        ></textarea>
+        <button id="btn-send" class="btn primary">发送</button>
+      </footer>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
